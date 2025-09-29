@@ -144,3 +144,10 @@ Elimina un usuario por su ID.
 ## 📂 Estructura del Proyecto
 
 El proyecto está organizado en las siguientes carpetas para separar responsabilidades:
+/api
+├── /config         # Conexión a la base de datos
+├── /controllers    # Lógica de las peticiones (request/response)
+└── /models         # Lógica de negocio y acceso a datos
+/BD script
+└── users_test.sql  # Script para crear la base de datos y tabla
+.htaccess           # Reglas de reescritura de URL para Apache
